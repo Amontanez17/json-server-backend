@@ -16,7 +16,7 @@ async function fecthCharacters() {
           language: movie.orignal_language,
           title: movie.original_title,
           summary: movie.overview,
-          released: movie.release_date,
+          release_date: movie.release_date,
           rating: movie.vote_average,
           genre: movie.genre_ids,
         };
